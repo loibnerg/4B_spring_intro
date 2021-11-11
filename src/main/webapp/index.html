@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Personenverwaltung</title>
+    <script src="persons.js"></script>
+
+</head>
+<body onload="getPerson()">
+<table id="result">
+
+</table>
+
+<input type="text" id="NewPersonId" value="2"/>
+<input type="text" id="NewPersonFirstname" value="Hans"/>
+<input type="text" id="NewPersonLastname" value="Muster"/>
+<button onclick="addPerson(NewPersonId.value, NewPersonFirstname.value, NewPersonLastname.value)">Add</button>
+</body>
+</html>
